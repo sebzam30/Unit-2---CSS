@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2 {
+    font-family:'Courier New', Courier, monospace;
+}
+.stat {
+    background-color: aquamarine;
+}
+#player {
+    background-color: purple;
+}
+.player-card p {
+    color: #F2B705;
+}
+.btn {
+    background-color: yellow;
+}
+.about p {
+    font-style: italic;
+}
+.tag, .stat {
+    font-weight: bold;
+}
+footer p {
+    color: #AEC0D8;
+}
