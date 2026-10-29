@@ -15,15 +15,15 @@
             <a href="#roster">Roster</a>
             <a href="#matches">Matches</a>
         </nav>
+        <br>
+        <button class="join">Join tryouts</button>
     </header>
 
     <main>
-        <!-- id="roster": one-of-a-kind, so the nav link can jump here -->
         <section id="roster">
             <h2>Roster</h2>
 
-            <!-- three cards share a CLASS... -->
-            <article class="player-card" id="captain">  <!-- ...only one has this ID -->
+            <article class="player-card" id="captain">
                 <h3>NovaBlade</h3>
                 <p>Role: <span class="tag">Captain</span></p>
                 <p>Win rate: <span class="stat">61%</span></p>
@@ -44,11 +44,15 @@
 
         <section id="matches">
             <h2>Recent Matches</h2>
-            <p>Last three games, newest first.</p>
+            <p>Last six games, newest first.</p>
+            <!-- NEW in 2C: six results instead of three -->
             <ul class="results">
                 <li>Win vs Iron Owls</li>
                 <li>Loss vs Static</li>
                 <li>Win vs Red Comets</li>
+                <li>Win vs Glitch City</li>
+                <li>Loss vs Neon Wolves</li>
+                <li>Win vs Turbo Ducks</li>
             </ul>
         </section>
     </main>

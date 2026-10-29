@@ -1,0 +1,21 @@
+/* style.css · squad page (picks up where Lesson 1 left off) */
+
+body {
+    background-color: hsl(218, 46%, 12%);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #5ADB8C;
+    font-size: 40px;
+}
+
+.tag {
+    background-color: #2B3F5F;
+    color: #5ADB8C;
+}
+.player-card{
+    border-color: gold;
+    border-width: 5px;
+}

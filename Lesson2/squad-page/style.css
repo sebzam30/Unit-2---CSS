@@ -1,9 +1,8 @@
-/* style.css · squad page (picks up where Lesson 1 left off) */
+/* style.css · squad page (after Lesson 2B) */
 
 body {
-    background-color: hsl(218, 46%, 12%);
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #101A2B;
+    color: #EAF0F7;
 }
 
 h1 {
@@ -15,7 +14,68 @@ h1 {
     background-color: #2B3F5F;
     color: #5ADB8C;
 }
-.player-card{
-    border-color: gold;
-    border-width: 5px;
+
+/* group: every <h2> AND every <h3> */
+h2, h3 {
+    color: #F2B705;
 }
+
+/* class selector: every class="player-card" */
+.player-card {
+    border: 1px solid #2B3F5F;
+    padding: 4px 14px;
+    margin: 10px 0;
+}
+
+/* id selector: the one id="captain" */
+#captain {
+    border: 2px solid #F2B705;
+}
+
+/* descendant (space): only <p> INSIDE a card */
+.player-card p {
+    color: #AEC0D8;
+}
+
+/* descendant (space): only links INSIDE the nav */
+nav a {
+    color: #5ADB8C;
+}
+
+/* child (>): a <p> DIRECTLY inside #matches */
+#matches > p {
+    font-style: italic;
+}
+
+/* adjacent sibling (+): an <li> right AFTER an <li> */
+li + li {
+    border-top: 1px solid #2B3F5F;
+}
+
+/* NEW in 2C: the button, before any states */
+.join {
+    background-color: #5ADB8C;
+    color: #101A2B;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: #F2B705;
+}
+
+.join:active {
+    transform: scale(.9);
+}
+
+.join:focus {
+    outline: 3px solid white;
+}
+
